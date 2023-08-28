@@ -1,0 +1,94 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor0: #00E3CC;
+    --cor1: #32A89C;
+    --cor2: #009688;
+    --cor3: #44E303;
+    --cor4: #00635A;
+    --cor5: #063d1e;
+    --fonte0: Arial, Helvetica, sans-serif;
+    --fonte1: 'Lobster', cursive;
+    --fonte2: 'Bebas Neue', sans-serif;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+header {
+    display: flex;
+    background-image: linear-gradient(to right ,var(--cor0), var(--cor3));
+    padding: 10px;
+}
+
+header img.ico {
+    height: 80px;
+    
+    margin-right: 40px;
+}
+
+header  h1 {
+    font-size: 3.5em;
+    color: var(--cor4);
+    font-family: 'Lobster', cursive;
+    text-shadow: 1px 5px 8px rgb(37, 71, 25);
+}
+nav {
+    background-image: linear-gradient(to right ,var(--cor0), var(--cor3));
+    padding: 10px;
+    
+}
+nav > a {
+    color: var(--cor4);
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 1s;
+}
+nav > a:hover {
+    background-color: yellow;
+    color: var(--cor5);
+    border-radius: 50px;
+}
+
+main {
+    background-color: #44E303;
+    
+ }
+
+.telha {
+    width: 15%;
+    height: 280px;
+}    
+.especial {
+    width: 46%;
+    height: 480px;
+}
+.especial2 {
+    width: 30.5%;
+    height: 380px;
+    padding-top: 20px;
+}
+article {
+    margin: 0px 30px;
+}
+h2 {
+    font-size: 2em;
+    font-family: var(--fonte1);
+    text-transform: capitalize;
+    color: var(--cor4);
+    padding: 20px;
+}
+
+
+
+footer {
+    background-image: linear-gradient(to right ,var(--cor0), var(--cor3));
+    padding: 30px;
+}
+
